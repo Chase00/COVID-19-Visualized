@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-color: #FAF9F6;
+    /* background: linear-gradient(#e66465, #9198e5); */
+    margin: 4% 10% 4% 10%;
+    font-family: "Segoe UI"
+}
+
+div {
+    background-color: white; border-radius: 16px;
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.05);
+    padding: 48px;
+    margin-bottom: 48px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}
+
+h3 {
+    text-align: left;
+}
+
+span {
+    background-color: #de425b;
+    color: white;
+    padding: 0 2px;
+    font-weight: bolder;
+}
+
+.area {
+    fill: #de425b;
+    background: linear-gradient(#e66465, #9198e5);
+    clip-path: url(#clip);
+}
+
+.area :hover {
+    cursor: pointer;
+    fill: rgb(106, 201, 51);
+    transition: 0.3s;
+}
+
+.zoom {
+    cursor: move;
+    fill: none;
+    pointer-events: all;
+}
+
+li {
+    display: inline;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px;
+}
