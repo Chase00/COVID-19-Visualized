@@ -121,8 +121,8 @@ function brushed() {
         .translate(-s[0], 0));
 
     // Hide the selection if in full scale
-    var fullScale = s[0] === x2.range()[0] && s[1] === x2.range()[1];
-    svg.select(".selection").attr('display', fullScale ? "none" : "yes");
+    // var fullScale = s[0] === x2.range()[0] && s[1] === x2.range()[1];
+    // svg.select(".selection").attr('display', fullScale ? "none" : "yes");
 }
 
 // Zoom into the data
