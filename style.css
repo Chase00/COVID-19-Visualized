@@ -30,6 +30,10 @@ span {
     font-weight: bolder;
 }
 
+iframe {
+    border-radius: 16px;
+}
+
 .area {
     fill: #de425b;
     background: linear-gradient(#e66465, #9198e5);
